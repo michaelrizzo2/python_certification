@@ -33,3 +33,12 @@ print (f"slicing string will result in {next_sentence[0:4]}")
 
 #To get the word is
 print (f"{next_sentence[5:7]}")
+
+# to get every other character
+print (f"The result is {next_sentence[0:len(next_sentence):2]}")
+
+#The last thing
+#we want to show 
+print(f"The result is {next_sentence[3:]}")
+
+print(f"The result is {next_sentence[-3:]}")
