@@ -15,3 +15,11 @@ print(new_sentence)
 print(f"The first character is {next_sentence[0]}")
 
 #The first inedx will start at zero and will increase  by one
+
+#We are going to print to print the last character(This is for when you know the length of the sentence)
+
+print(f"The last character is {next_sentence[22]}")
+
+#What if we do not know how long the sentence is.This will show negative indexing positions
+
+print(f"The last character is {next_sentence[-1]}")
