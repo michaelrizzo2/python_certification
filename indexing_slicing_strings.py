@@ -23,3 +23,13 @@ print(f"The last character is {next_sentence[22]}")
 #What if we do not know how long the sentence is.This will show negative indexing positions
 
 print(f"The last character is {next_sentence[-1]}")
+
+#Negative Indexing will go from -1,-2,-3 all the way to the beginning.
+
+#We are going to show slicing of a string
+
+#The second value in a slicing is not inclusive.It will always be one less than the last index.
+print (f"slicing string will result in {next_sentence[0:4]}")
+
+#To get the word is
+print (f"{next_sentence[5:7]}")
