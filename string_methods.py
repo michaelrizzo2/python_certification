@@ -22,4 +22,4 @@ print(my_sentence.startswith("ARTS"))
 #we will demonstrate the startswith method (Cannot use string literal f ahsrp syntax for startswith method)
 print(my_sentence.endswith("ARTS"))
 
-#ends has to startwith a string or a tuple, it cannot start with an integer
+#endswith has to startwith a string or a tuple, it cannot start with an integer
