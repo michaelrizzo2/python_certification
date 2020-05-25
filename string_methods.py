@@ -17,4 +17,4 @@ print(f'{my_sentence.isdigit()}')
 print(f"{my_sentence.isalnum()}")
 
 #startswith method will check to see if a method starts with a set of characters\
-print(f"{my_sentence.startswith("A948")}")
+print(f"{my_sentence.startswith("7645")}")
