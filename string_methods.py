@@ -16,5 +16,5 @@ print(f'{my_sentence.isdigit()}')
 #isalnum will return if a string has numbers or letters it does not recognize spaces.
 print(f"{my_sentence.isalnum()}")
 
-#startswith method will check to see if a method starts with a set of characters\
-print(f"{my_sentence.startswith("7645")}")
+#we will demonstrate the startswith method (Cannot use string literal f ahsrp syntax for startswith method)
+print(my_sentence.startswith("ARTS"))
