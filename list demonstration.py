@@ -15,3 +15,6 @@ print (f"The result is {my_list}")# pop will remove the last element from a list
 my_list.pop(0)
 print (f"The result is {my_list}")# pop will remove the first element from a list 
 
+#we will show how to change items in an list
+my_list[0]="asvdfu"
+print (f"The result is {my_list}")
