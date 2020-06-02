@@ -8,7 +8,10 @@ print (f" my list is {my_list}")
 print (f"The type of the list is {type(my_list)}")
 
 #We are going to show the pop method and what it does to a list
-my_list.pop()
+#my_list.pop()
 print (f"The result is {my_list}")# pop will remove the last element from a list 
 
-#we can change a list we wil show that in the next examples
+#we can pop specific values
+my_list.pop(0)
+print (f"The result is {my_list}")# pop will remove the first element from a list 
+
