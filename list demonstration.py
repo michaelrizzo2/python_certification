@@ -26,3 +26,9 @@ print (f"The result is {my_list}")
 # we will show how the append method will add items to the end of a list
 my_list.append(6)
 print (f"The result is {my_list}")
+#popping an itme off the list will undo an append you just did.
+#we can pop the end of a list into another variable
+pop_variable=my_list.pop()
+print (f"The result of the list being popped is {pop_variable} and the list is now {my_list}")
+
+# The append method will return None
