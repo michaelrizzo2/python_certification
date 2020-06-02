@@ -18,3 +18,7 @@ print (f"The result is {my_list}")# pop will remove the first element from a lis
 #we will show how to change items in an list
 my_list[0]="asvdfu"
 print (f"The result is {my_list}")
+
+#We can have a list inside another list
+my_list[0]=["hello","furry"]
+print (f"The result is {my_list}")
