@@ -22,3 +22,7 @@ print (f"The result is {my_list}")
 #We can have a list inside another list
 my_list[0]=["hello","furry"]
 print (f"The result is {my_list}")
+
+# we will show how the append method will add items to the end of a list
+my_list.append(6)
+print (f"The result is {my_list}")
