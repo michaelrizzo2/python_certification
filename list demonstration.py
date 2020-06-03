@@ -34,11 +34,18 @@ print (f"The result of the list being popped is {pop_variable} and the list is n
 # The append method will return None
 #if we append [10,99,1090] we wil not get each item from the list
 my_list.append([10,99,1090])
+
 print (f"The result is {my_list}")
+
 #sort is a method that will sort objects
+
 new_list=[5,1,2,4,3] #by defalut the sort method will return none
 new_list.sort()
 print(f"THe sorted list will be {new_list}")
+
 #We can also reverse the entiores in a list
 new_list.reverse()
 print(f"THe list is now {new_list}")
+
+#we can also sort a list of strings in python 
+
