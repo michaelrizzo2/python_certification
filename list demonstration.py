@@ -56,5 +56,7 @@ my_char_list=['a','z','x','m','o']
 my_char_list.sort()
 print(f" The value of the sorted char list is {my_char_list}")
 
-#We can add the entries of two lists together
+#We can add the entries of two lists together This new list can  also be eset to a variable
 print(f"The result of this is {my_char_list+my_string_list}") 
+
+#append a list to the end of another list will not add all of the elements together.
