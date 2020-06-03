@@ -52,3 +52,9 @@ my_string_list=['2','1','4','3','5']
 my_string_list.sort()
 print (f"The value of the list is {my_string_list}")
 
+my_char_list=['a','z','x','m','o']
+my_char_list.sort()
+print(f" The value of the sorted char list is {my_char_list}")
+
+#We can add the entries of two lists together
+print(f"The result of this is {my_char_list+my_string_list}") 
