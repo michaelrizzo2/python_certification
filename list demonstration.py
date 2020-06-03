@@ -48,4 +48,7 @@ new_list.reverse()
 print(f"THe list is now {new_list}")
 
 #we can also sort a list of strings in python 
+my_string_list=['2','1','4','3','5']
+my_string_list.sort()
+print (f"The value of the list is {my_string_list}")
 
