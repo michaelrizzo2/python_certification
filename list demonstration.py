@@ -39,3 +39,6 @@ print (f"The result is {my_list}")
 new_list=[5,1,2,4,3] #by defalut the sort method will return none
 new_list.sort()
 print(f"THe sorted list will be {new_list}")
+#We can also reverse the entiores in a list
+new_list.reverse()
+print(f"THe list is now {new_list}")
