@@ -7,4 +7,5 @@ print("Hello"=="Hello")
 print("Hello"=="hello")
 
 #Srting and integer comparison
-print(10==10)
+print(10=='10')# a comparison operator also looks at the type of the data along with the quantity
+#5 will be equal to 5.00 but not 5.01
