@@ -11,3 +11,16 @@ print(my_dict[7])
 
 people_weight={"rastachu":34,"Regular pikachu":17,"Ash":140}
 print(people_weight)
+people_weight["rastachu"]=20
+print(people_weight)
+
+#We want to get rid of Ash
+people_weight.pop("Ash")
+print(people_weight)
+#we can clear out a dictionary usinng the clear method
+people_weight.clear()
+print(people_weight)
+
+# we can also add a new key to a dict
+people_weight["aquachu"]=10
+print(people_weight)
