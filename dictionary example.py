@@ -33,3 +33,10 @@ print(people_weight["nuclearchu"][1])
 #We are going to have a dictionary inside a list inside of a dictionary
 new_dict={"Michael": "Rizzo","items":[1,{"my_key":1}]}
 print(f"The result i am looking for is {new_dict['items'][1]['my_key']}")
+
+#we are going to add a new tuple to the dictionary
+new_dict["my_tuple"]=(1,2,3,4)
+
+#we are going to remove thre tuple from the dictionary
+new_dict.pop("my_tuple")
+print (new_dict)
