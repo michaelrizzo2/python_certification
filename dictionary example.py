@@ -8,3 +8,5 @@ print(my_dict[7])
 #you cna change a dictionary unlike a tuple
 my_dict[7]="ivbiebvav"
 print(my_dict[7])
+
+people_weight={"rastachu",34,"Regular pikachu",17,"Ash" : 140}
