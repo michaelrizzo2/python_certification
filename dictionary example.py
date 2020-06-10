@@ -17,7 +17,7 @@ print(people_weight)
 #We want to get rid of Ash
 people_weight.pop("Ash")
 print(people_weight)
-#we can clear out a dictionary usinng the clear method
+#we can clear out a dictionary using the clear method
 people_weight.clear()
 print(people_weight)
 
@@ -29,3 +29,7 @@ print(people_weight)
 people_weight["nuclearchu"]=[10,30]
 print(people_weight["nuclearchu"][0])
 print(people_weight["nuclearchu"][1])
+
+#We are going to have a dictionary inside a list inside of a dictionary
+new_dict={"Michael": "Rizzo","items":[1,{"my_key":1}]}
+print(f"The result i am looking for is {new_dict['items'][1]['my_key']}")
