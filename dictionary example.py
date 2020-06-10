@@ -25,6 +25,7 @@ print(people_weight)
 people_weight["aquachu"]=10
 print(people_weight)
 
+#The value for a key can be another list
 people_weight["nuclearchu"]=[10,30]
 print(people_weight["nuclearchu"][0])
 print(people_weight["nuclearchu"][1])
