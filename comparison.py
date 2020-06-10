@@ -31,5 +31,9 @@ print("Hello"!="Hello" or "5"==6)#This should be False(False or False will give 
 print(("Hello"!="Hello" or "5"==6) and True)#This should be False(False and True will give us False)
 print(("Hello"!="Hello" or 6==6) and True)#This should be True(True and True will give us True)
 #something=something will return true otherwise it is false
-#we will show how to use the not keyword
+#we will show how to use the not keyword(not is the same as the negation operator)
 print(not 5)#this will show False
+print(not False)#This should be true
+#All of the above could be assigned to variable.
+condition =not (5==5)
+print(f"The condition is {condition}") #This will be a boolean type
