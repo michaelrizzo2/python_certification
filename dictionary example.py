@@ -24,3 +24,7 @@ print(people_weight)
 # we can also add a new key to a dict
 people_weight["aquachu"]=10
 print(people_weight)
+
+people_weight["nuclearchu"]=[10,30]
+print(people_weight["nuclearchu"][0])
+print(people_weight["nuclearchu"][1])
