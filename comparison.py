@@ -26,4 +26,5 @@ print("5"!=5)#This should be True
 print("Hello"!="Hello")#This should be False
 #We can also combine this with the or keyword
 print("Hello"!="Hello" or "5"!=5)#This should be True(false or true will give us true)
+print("Hello"!="Hello" or "5"==6)#This should be False(false or false will give us false)
 
