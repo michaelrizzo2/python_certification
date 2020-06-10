@@ -25,8 +25,10 @@ print(5!=6)#This will be True
 print("5"!=5)#This should be True
 print("Hello"!="Hello")#This should be False
 #We can also combine this with the or keyword
-print("Hello"!="Hello" or "5"!=5)#This should be True(false or true will give us true)
-print("Hello"!="Hello" or "5"==6)#This should be False(false or false will give us false)
+print("Hello"!="Hello" or "5"!=5)#This should be True(False or True will give us True)
+print("Hello"!="Hello" or "5"==6)#This should be False(False or False will give us False)
 # we can also combine this with and
-print(("Hello"!="Hello" or "5"==6) and True)#This should be False(false and true will give us false)
+print(("Hello"!="Hello" or "5"==6) and True)#This should be False(False and True will give us False)
+print(("Hello"!="Hello" or 6==6) and True)#This should be True(True and True will give us True)
+#something=something will return true otherwise it is false
 
