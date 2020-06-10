@@ -9,4 +9,5 @@ print(my_dict[7])
 my_dict[7]="ivbiebvav"
 print(my_dict[7])
 
-people_weight={"rastachu",34,"Regular pikachu",17,"Ash" : 140}
+people_weight={"rastachu":34,"Regular pikachu":17,"Ash":140}
+print(people_weight)
