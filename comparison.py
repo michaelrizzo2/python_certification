@@ -18,6 +18,9 @@ print(5>10)#This will be False
 print(5<=10)#This will be True
 print(5>=10)#This will be False 
 
-#we will show the not equal to operator
+#we will show the not equal to operator(aka negation operator)
 print(5!=5)#This will be False 
 print(5!=6)#This will be True
+#we will show that we can use this for strings
+print("5"!=5)#This should be True
+print("Hello"!="Hello")#This should be False
