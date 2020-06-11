@@ -18,8 +18,9 @@ new_list.append(original_list[3][0])
 new_list.append(original_list[3][1])
 new_list.append(original_list[3][2])
 new_list.sort()
-print(new_list)
-
+original_list.pop()
+original_list.append((new_list[0],new_list[1],new_list[2]))
+print(f"The new list is {original_list}")
 
 
 
