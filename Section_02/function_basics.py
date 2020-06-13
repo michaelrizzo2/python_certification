@@ -7,3 +7,4 @@ def greet_person():
 
 #Do not forget to call the function
 greet_person()
+#we need to define the function before we call the function,otherwise we will get an error saying the function does not exist 
