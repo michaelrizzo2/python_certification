@@ -3,6 +3,10 @@ print("Hello World")#"Hello world is the arguement"
 
 #To define a function we use the def command
 def greet_person(name="Name Here"):
+    '''
+    This function will return a greeting
+    The only input is the name
+    '''
     print("This is the body of a function")
     print("Hello this is a greeting from "+name)
 
