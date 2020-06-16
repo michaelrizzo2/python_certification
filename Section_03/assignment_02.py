@@ -7,41 +7,8 @@
     Make sure to test the function.
 """
 # Your Code Below:
+def seperater(string):
+    return list(string) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Solution Below:
-
-# def separate(str):
-#     return list(str)
-#
-# print(separate("hello there"))
+print(seperater("hello there"))
