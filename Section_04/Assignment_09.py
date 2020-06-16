@@ -38,27 +38,6 @@ d= {
 
 # Your Code below:
 # --------------------------------------
-line_list = []
-for line in fr:
-    columns = line.split("|")
-    lookup_val = columns[0]
-    # if lookup_val not in d.keys():
-
-    if(d.get(lookup_val) is None): # Can't find email in dict
-
-        next_number = int(max(d.values())) + 1
-        d[lookup_val] = str(next_number)
-        columns[0] = str(next_number)
-        line_list.append("|".join(columns))
-
-    else: # we were able to find email in dictionary
-        columns[0] = d.get(lookup_val)
-        line_list.append("|".join(columns))
-
-
-fr = line_list
-
-
 
 # don't change the below:
 # --------------------------------------
@@ -81,26 +60,3 @@ print(d)
 
 
 
-
-# Solution:
-#
-# line_list = []
-# # this won't work for missing keys
-# for line in fr:
-#     columns = line.split("|")
-#     lookup_val = columns[0]
-#
-#     # if lookup_val not in d.keys():
-#     if(d.get(lookup_val) is None): # Can't find in dict
-#
-#         # get the next number + 1 from dict
-#         next_number = int(max(d.values())) + 1
-#         d[lookup_val] = str(next_number)
-#         columns[0] = str(next_number)
-#         line_list.append("|".join(columns))
-#     else:
-#         columns[0] = d.get(columns[0])
-#         line_list.append("|".join(columns))
-#
-# fr = line_list
-#
