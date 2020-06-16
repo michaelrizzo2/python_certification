@@ -13,3 +13,4 @@ print(age)#This will print the 27 due to the fact that we do not have access to 
 print(increase_age())#This will give us 30 because we are accessing the age inside the function. 
 
 #We are going to continue with scope and nested functions
+#globalvalue -> function value-> inner function value
