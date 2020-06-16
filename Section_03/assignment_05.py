@@ -14,7 +14,12 @@ Example:
 """
 
 # Your Code Below:
+def key_list_items(key,**kwargs):
+    values=kwargs[key]
+    return values[-2]
 
+result = key_list_items("people", things=['book', 'tv', 'shoes'], people=['pete', 'mike', 'jan', 'tom'],ages=[20, 30, 40])
+print(result)
 
 
 
