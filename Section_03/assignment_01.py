@@ -7,43 +7,7 @@
 
 # your code below:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# solution Below:
-
-# def merge_lists(list_a, list_b):
-#     return list_a + list_b
-#
-# my_list = merge_lists([1,2,3],['a', 'b', 'c'])
-# print(my_list)
+def list_merger(list1,list2):
+    return list1+list2
+my_list = list_merger([1,2,3],['a', 'b', 'c'])
+print(my_list)
