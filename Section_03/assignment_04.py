@@ -19,30 +19,3 @@ def last_list(*args):
 
 out=last_list([1,2,3,4,5], ['a', 'b', 'c'], ['mike', 'john'])
 print(out)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Solution:
-
-# def last_list(*args):
-#     return args[-1 :len(args)]
