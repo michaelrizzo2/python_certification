@@ -14,6 +14,6 @@ greeting="Hello My name is Michael"
 
 for char in greeting:#This will iterate character by character
     if char=="n":
-        continue#This will move on to the next element.
+        continue#This will move on to the next element. break will break out of a specific loop.
     else:
         print(f"The character is {char}")
