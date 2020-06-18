@@ -13,6 +13,7 @@ for animal in farm_animals:
 greeting="Hello My name is Michael"
 
 for char in greeting:#This will iterate character by character
-    print(f"The character is {char}")
     if char=="n":
         break
+    else:
+        print(f"The character is {char}")
