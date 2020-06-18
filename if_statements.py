@@ -6,6 +6,8 @@ print(other_value,value)
 #This proves that if and else rely on boolean logic
 if (5<6 and other_value==True):
     print(" 5 is less than 6")
+    if (5<7):
+        print ("inside nested if loop")
 else:
     print(" 5 is not less than 6")
 #if true blocks will always run 
