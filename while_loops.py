@@ -3,3 +3,5 @@ x=1
 while x<=10:
     print(f"The value of x is {x}")
     x+=1
+else:
+    print("Out of loop")
