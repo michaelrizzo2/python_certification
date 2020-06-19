@@ -7,3 +7,8 @@ for value in employees.values():
 
 for value in employees.keys():
     print(value)
+
+employees=[("mike",77000,2),("Robert",100000,4),("Pikachu",40000,1)]
+
+for key,value,year in employees:#This is how you unpack a tuple.
+    print(key,value,year)
