@@ -13,3 +13,9 @@ out=zip(list_1,list_2)#This will give us a collection of tuples.
 
 for item in out:
     print(f"The item is {item}")
+new_list=[]
+for item_1,item_2 in zip(list_1,list_2):
+    new_list.append(item_1)
+    new_list.append(item_2)
+
+print (new_list)    
