@@ -23,3 +23,8 @@ print(140 in {"john":140}.values())
 print(max(list_1))
 
 print(min(list_1))
+
+char_list=["a","b","c","d","e","f"]
+
+print(max(char_list))
+print(min(char_list))#Max and min also work for characters
