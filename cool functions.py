@@ -36,3 +36,11 @@ print(randint(0,1000))#the last number of the range will not be inclusive.
 #we are going to learn how the shuffle method works.
 shuffle(list_1)
 print(list_1)#shuffle will randomly move the contents around of a list.
+
+#create a list from 1 to 100 ands shuffle all of the numbers.
+out_list=[]
+for i in range(1,101):
+    out_list.append(i)
+
+shuffle(out_list)
+print(out_list)
