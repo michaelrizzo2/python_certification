@@ -12,3 +12,14 @@ first3([1, 2, 3, 4, 6]) → False
 first3([1, 2, 3, 4, 5]) → False
 
 """
+
+def first3(my_list):
+    for i in my_list[0:4]:
+        if i ==6:
+            return True
+    return False
+
+out1=first3([1, 2, 6, 3, 4]) 
+out2=first3([1, 2, 3, 4, 6]) 
+out3=first3([1, 2, 3, 4, 5]) 
+print(out1,out2,out3)
