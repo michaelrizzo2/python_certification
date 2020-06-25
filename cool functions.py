@@ -15,4 +15,7 @@ for a,b,c in list(zip(list_1,list_2,list_3)):
 
 print('z' in list_1)#This will return a boolean vaslue of false.
 
-print ("John" in {'John':140})#THis will return a boolean value of true
+print ("John" in {'John':140})#THis will return a boolean value of true Only a key gets checked for the in statement for a dictionary.
+
+print(140 in {"john":140})
+print(140 in {"john":140}.values())
