@@ -16,3 +16,13 @@ Example:
     pay_extra(False, 5) -> false
     pay_extra(True, 6)  -> true
 """
+def pay_extra(work_status,hour):
+    if work_status==True and ( hour>20 or hour<8):
+        return True
+    else:
+        return False
+
+out1=pay_extra(True, 11) 
+out2=pay_extra(False, 5) 
+out3=pay_extra(True, 6)  
+print(out1,out2,out3)
