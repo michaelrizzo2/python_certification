@@ -1,3 +1,4 @@
+from random import randint
 list_1=[1,2,3,4,5,6]
 list_2=["hi","my","Name","is","Michael","Rizzo"]
 list_3=[7,8,9,10,11,12]
@@ -28,3 +29,6 @@ char_list=["a","b","c","d","e","f"]
 
 print(max(char_list))
 print(min(char_list))#Max and min also work for characters
+
+#we are going to generate a random number
+print(randint(0,1000))#the last number of the range will not be inclusive.
