@@ -19,3 +19,7 @@ print ("John" in {'John':140})#THis will return a boolean value of true Only a k
 
 print(140 in {"john":140})
 print(140 in {"john":140}.values())
+
+print(max(list_1))
+
+print(min(list_1))
