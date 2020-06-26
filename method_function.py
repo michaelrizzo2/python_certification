@@ -7,3 +7,5 @@ max_value=max(my_list)
 
 #Methods change the result and functions do not.
 #In Short, a method is a function which belongs to an object.
+
+print("Hello there ".strip())#This is a method
