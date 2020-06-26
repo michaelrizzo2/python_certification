@@ -38,7 +38,24 @@ d= {
 
 # Your Code below:
 # --------------------------------------
+my_out_line=[]
+#We need to split the line by |
+for line in fr:
+    columns=line.split("|")
+    #We need to check if the value exists in the dictionary
+    # we need to get the look up value for this to work.
+    value=columns[0]
+    if value in d.keys():
+        columns[0]=d.get(value)
+        my_out_line.append("|".join(columns))
+    else:
+        #we need to get the value
+        next_number=int(max((d.values())))+1
+        d[value]=str(next_number)
+        columns[0]=str(next_number)
+        my_out_line.append("|".join(columns))
 
+    
 # don't change the below:
 # --------------------------------------
 print("Value of fr: ")
