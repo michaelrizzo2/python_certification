@@ -2,6 +2,8 @@ from my_class import Vehicle
 
 vehicle_1=Vehicle("Saturn","ion","Green","v6")
 
-vehicle_1.get_color()
-vehicle_1.get_make()
-vehicle_1.get_vehicle()
+out1=vehicle_1.get_color()
+out2=vehicle_1.get_make()
+out3=vehicle_1.get_vehicle()
+out4=vehicle_1.get_body()
+print(out1,out2,out3,out4)
