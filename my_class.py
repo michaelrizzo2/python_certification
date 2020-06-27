@@ -15,3 +15,6 @@ class Vehicle:
         
     def get_color(self):
         return self.color
+
+    def get_body(self):
+        return self.body
