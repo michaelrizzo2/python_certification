@@ -8,8 +8,10 @@ class Vehicle:
         self.engine=engine
         Vehicle.vehicle_counter+=1
     def get_vehicle(self):
-        print(Vehicle.vehicle_counter)
+        return Vehicle.vehicle_counter
+
     def get_make(self):
-        print(self.make)
+        return self.make
+        
     def get_color(self):
-        print(self.color)
+        return self.color
