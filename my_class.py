@@ -18,3 +18,6 @@ class Vehicle:
 
     def get_body(self):
         return self.body
+    
+class Truck(Vehicle):
+    pass

@@ -1,4 +1,4 @@
-from my_class import Vehicle
+from my_class import Vehicle,Truck
 
 vehicle_1=Vehicle("Saturn","ion","Green","v6")
 
