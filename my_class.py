@@ -19,5 +19,8 @@ class Vehicle:
     def get_body(self):
         return self.body
     
+    def drive(self):
+        print("driving")
+    
 class Truck(Vehicle):
     pass
