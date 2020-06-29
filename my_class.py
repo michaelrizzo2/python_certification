@@ -20,7 +20,8 @@ class Vehicle:
         return self.body
     
     def drive(self):
-        print("driving")
+        print("Vehicle driving")
     
 class Truck(Vehicle):
-    pass
+    def drive(self):
+        print("Truck Driving")
