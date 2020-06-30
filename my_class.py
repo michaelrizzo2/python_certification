@@ -26,3 +26,7 @@ class Truck(Vehicle):
     #this is method overloading in other languages.
     def drive(self):
         print("Truck Driving")
+
+class Motorcycle(Vehicle):
+    def drive(self):
+        print("motorcycle going fast")
