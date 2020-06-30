@@ -3,4 +3,11 @@
 
 class animal:
     def __init__(self,name):
-        self.name=name
+        self.animal_name=name
+    def eat(self):
+        raise NotImplementedError("Child class should be implementing this")
+class monkey(animal):#The method need to be in the child class only
+    pass
+
+my_animal=animal("sdb")
+my_animal.eat()
