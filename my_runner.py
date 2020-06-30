@@ -18,3 +18,6 @@ vehicle_1.drive()
 truck_1.drive()
 motorcycle.drive()
 print(out1,out2,out3,out4)
+
+for v in [truck_1,motorcycle,vehicle_1]:
+    v.drive()
