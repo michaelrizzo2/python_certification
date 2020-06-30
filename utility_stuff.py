@@ -6,4 +6,6 @@ class shortener:
         print(self.original_item)
 
 
-class
+class listandchar(shortener):
+    def print_shortened_items(self):
+        print(self.original_item[0:3])
