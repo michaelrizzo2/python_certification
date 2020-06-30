@@ -9,3 +9,9 @@ class shortener:
 class listandchar(shortener):
     def print_shortened_items(self):
         print(self.original_item[0:3])
+
+my_shortener=listandchar("This is a test")
+my_shortener.print_shortened_items()
+
+my_shortener=listandchar([1,2,3,4,5])
+my_shortener.print_shortened_items()
