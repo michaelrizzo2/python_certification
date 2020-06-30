@@ -6,8 +6,8 @@ class animal:
         self.animal_name=name
     def eat(self):
         raise NotImplementedError("Child class should be implementing this")
-class monkey(animal):#The method need to be in the child class only
-    pass
-
-my_animal=animal("sdb")
+class monkey(animal):#The method need to be in the child class only(methods cannot be invoked in the abstract class.)
+    def eat(self):
+        print("Monkey eating bananas")
+my_animal=monkey("sdb")
 my_animal.eat()
