@@ -30,3 +30,4 @@ class Truck(Vehicle):
 class Motorcycle(Vehicle):
     def drive(self):
         print("motorcycle going fast")
+#having the same method for a different class is called polymorphism
