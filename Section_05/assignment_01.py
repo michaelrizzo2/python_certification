@@ -12,60 +12,22 @@ After creating the class hierarchy, create instances of each of the 3 animals
 dog, fish and bird and make them eat and move.
 
 """
+class animal:
 
-class Animal:
     def __init__(self):
-        print("Animal Constructed")
-
+        print("animal Constructed")
+    
     def move(self):
-        print("Animal Moving...")
-
+        print("animal moving")
+    
     def eat(self):
-        print("Animal Eating...")
+        print("animal eating")
 
-
-
-class Bird(Animal):
-
-    def __init__(self, bird_age, bird_name):
-        Animal.__init__(self)
-        self.age = bird_age
-        self.name = bird_name
-
+class dog(animal):
+    def __init__(self,dog_name,dog_age):
+        animal.__init__(self)
+        self.dog_name=dog_name
+        self.dog_age=dog_age
     def move(self):
-        print("Bird flying...")
+        print("dog running")
 
-
-
-class Fish(Animal):
-
-    def __init__(self, bird_age, bird_name):
-        Animal.__init__(self)
-        self.age = bird_age
-        self.name = bird_name
-
-    def move(self):
-        print("Fish Swimming...")
-
-
-class Dog(Animal):
-
-    def __init__(self, bird_age, bird_name):
-        Animal.__init__(self)
-        self.age = bird_age
-        self.name = bird_name
-
-    def move(self):
-        print("Dog Running ...")
-
-mydog = Dog(3, "wolfy")
-mydog.move()
-mydog.eat()
-
-mydog = Fish(1, "nemo")
-mydog.move()
-mydog.eat()
-
-mydog = Bird(3, "jojo")
-mydog.move()
-mydog.eat()
