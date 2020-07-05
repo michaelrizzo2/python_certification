@@ -31,3 +31,29 @@ class dog(animal):
     def move(self):
         print("dog running")
 
+class bird(animal):
+    def __init__(self,bird_name,bird_age):
+        animal.__init__(self)
+        self.bird_name=bird_name
+        self.bird_age=bird_age
+    def move(self):
+        print("Bird Flying")
+
+class fish(animal):
+    def __init__(self,fish_age,fish_name):
+        animal.__init__(self)
+    def move(self):
+        print("Fish Swimming")
+
+mydog = dog(3, "wolfy")
+mydog.move()
+mydog.eat()
+
+myfish = fish(1, "nemo")
+myfish.move()
+myfish.eat()
+
+mybird = bird(3, "jojo")
+mybird.move()
+mybird.eat()
+
