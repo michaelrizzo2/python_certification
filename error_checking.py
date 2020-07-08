@@ -1,9 +1,11 @@
 def sum(number1,number2):
-    try:
+    if type(number1)!=int:
+        number1=int(input("Please enter a number"))
+        sum(number1,number2)
+    elif type(number2)!=int:
+        print("number is not there")
+    else: 
         print(number1+number2)
-    except:
-        print("There was an error")
-
 number1=input("Please enter a number\n")
-
+#use try and exept when the situation is out of your control.
 sum(number1,12)
