@@ -9,3 +9,4 @@ def sum(number1,number2):
 number1=input("Please enter a number\n")
 #use try and exept when the situation is out of your control.
 sum(number1,12)
+#The rest of section 6 is useless because the needed files are no there.
